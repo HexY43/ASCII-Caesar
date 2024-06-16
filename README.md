@@ -4,10 +4,10 @@ This algorithm is a simple **substitution** cipher that replaces each letter in 
 
 ### How does it work?
 Convert each letter in the message to its corresponding ASCII value and eliminate the offset by subtracting $32$ and add it to a list, then:
-$$
-\left(Ciphertext = (Coresponding \;ASCII + Key) \% 91 + 32\right) \\
-Plaintext = (Coresponding \;ASCII - Key) \% 91 + 32
-$$
+```math
+Ciphertext = (Corresponding \;ASCII + Key) \% 91 + 32 \\
+Plaintext = (Corresponding \;ASCII - Key) \% 91 + 32
+```
 Notice that we are adding back the offset of $32$ after dealing with the ASCII value.
 
 ### Usage and use cases
