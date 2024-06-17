@@ -61,4 +61,4 @@ python ascii_caesar.py -d "z'3+4A/9A2/9:+:/4/4-A:5Az'99+8H9A56/4/54" -k 33
 # Bruteforcing
 python ascii_caesar.py -b "z'3+4A/9A2/9:+:/4/4-A:5Az'99+8H9A56/4/54"
 ```
-3. **If your message contains a double qoute and a single quote and/or backticks, the algorithm will sadly not work. :((**
+3. **If your message contains a double qoute and a single quote (or double qoute and a signle qoute and a backtick), the algorithm will sadly not work. :((**
